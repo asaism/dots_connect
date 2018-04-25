@@ -9,6 +9,21 @@
         <link href="/static/css/connect.css" rel="stylesheet">
     </head>
     <body>
+
+        <div class="title">
+            <h3><strong>WORK VISUALIZATION</strong></h3>
+            <h1>
+                <p class="column">未着手<br/><span class="numerator" id="notyet">{{ notyet }}</span></p><span class="numerator"> + </span>
+                <p class="column">対応中<br/><span class="numerator" id="processing">{{ processing }}</span></p><span class="numerator"> + </span>
+                <p class="column">処理済<br/><span class="numerator" id="processed">{{ processed }}</span></p><span class="numerator"> + </span>
+                <p class="column">完了<br/><span class="numerator" id="done">{{ done }}</span></p>
+                <br />
+                <span class="denominator">{{ total }}</span>
+            </h1>
+            <br />
+            <h3>A S A I S M - <strong>D E M O</strong></h3>
+        </div>
+
         <canvas id="canvas"></canvas>
         <!-- Dots Connect -->
         <script src="/static/js/connect.js"></script>
