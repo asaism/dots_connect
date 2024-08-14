@@ -11,10 +11,10 @@ What things you need to install the software and how to install them
 
 ```bash
 $ python -V
-Python 3.6.5
+Python 3.12.4
 
 $ pip -V
-pip 10.0.0
+pip 24.2
 ```
 
 ### Installing
